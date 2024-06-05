@@ -1,0 +1,366 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* overflow-x: hidden; */
+    /* font-family: 'Lobster Two', sans-serif; */
+}
+body{
+    background-color: #FFF5F3;
+}
+.container-fluid{
+    padding: 0%;
+}
+:root {
+    --primary: #FE5D37;
+    --light: #FFF5F3;
+    --dark: #103741;
+}
+ .font-curve{
+    font-family: 'Lobster Two', sans-serif; 
+ }
+.navbar .navbar-brand h1{
+    font-family: 'Lobster Two', sans-serif;
+}
+
+.navbar .navbar-nav .nav-link {
+    padding: 30px 15px;
+    color: var(--dark);
+    font-weight: 500;
+    outline: none;
+}
+
+.navbar .navbar-nav .nav-link:hover,
+.navbar .navbar-nav .nav-link.active {
+    color: var(--primary);
+}
+
+.navbar.sticky-top {
+    top:0;
+
+}
+
+
+
+.btn{
+    width: 15%;    
+    display: inline;
+}
+
+
+.carousel .carousel-inner .carousel-item img{
+object-fit: cover;
+height: 580px;
+width: auto;
+}
+
+.carousel-caption{
+    /* background-color: #1037414e; */
+
+}
+
+
+
+
+    @media (min-width:2100px){
+    .shapedividers_com-7413::before{
+    background-size: 100% calc(2vw + 38px);
+    }
+    }
+     
+    
+    @media (min-width:2100px){
+    .shapedividers_com-6830::before{
+    background-size: 100% calc(2vw + 68px);
+    }
+    }
+     
+
+
+/* Facility CSS  */
+
+.facility-item .facility-icon {
+    position: relative;
+    margin: 0 auto;
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* School Facility CSS  */
+
+.facility-item .facility-text {
+    position: relative;
+    min-height: 250px;
+    padding: 30px;
+    border-radius: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.facility-item:hover .ft-1 {
+    background-color: #FE5D37 !important;
+    transition: background-color 0.5s ease;
+}
+
+.facility-item:hover .ft-1 h3,
+.facility-item:hover .ft-1 p ,
+.facility-item:hover .ft-1 i{
+    color: #fff  !important;
+    transition: color 0.5s ease;
+}
+
+
+.facility-item:hover .ft-2 {
+    background-color: #00aaff !important;
+    transition: background-color 0.5s ease;
+}
+
+.facility-item:hover .ft-2  h3,
+.facility-item:hover .ft-2  p ,
+.facility-item:hover .ft-2  i{
+    color: #fff  !important;
+    transition: color 0.5s ease;
+}
+.facility-item:hover .ft-3 {
+    background-color: #FFC107 !important;
+    transition: background-color 0.5s ease;
+}
+
+.facility-item:hover .ft-3 h3,
+.facility-item:hover .ft-3 p ,
+.facility-item:hover .ft-3 i{
+    color: #fff  !important;
+    transition: color 0.5s ease;
+}
+.facility-item:hover .ft-4 {
+    background-color: #04d700 !important;
+    transition: background-color 0.5s ease;
+}
+
+.facility-item:hover .ft-4 h3,
+.facility-item:hover .ft-4 p ,
+.facility-item:hover .ft-4 i{
+    color: #fff  !important;
+    transition: color 0.5s ease;
+}
+
+
+
+/*** About ***/
+.about-img img {
+    transition: .5s;
+}
+
+.about-img img:hover {
+    background: #FE5D37 !important;
+}
+
+
+/*** Classes ***/
+.class-container .row .card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2)
+}
+
+.classes-item:hover {
+    margin-top: -10px;
+}
+
+/* footer CSS  */
+ .quick-links  a:hover {
+color: #FE5D37 !important;
+
+transition:  1s all ;
+}
+.end-container .copyright .row{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+
+
+/*About page CSS*/
+.hero-section{
+    position: relative;
+}
+.hero-section .row .col-12{
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+   
+    
+}
+.hero-section .row .col-12 .bread-crumbs{
+    position: relative;
+    left: 5%;
+    background-color: #1037417c;
+    padding:  14px;
+    padding-bottom: 0px;
+   
+}
+
+.hero-section .row .col-12 .bread-crumbs p ,.bread-crumbs p a{
+    font-size: 1.6rem;
+    color:#fff;
+    font-weight: 600;
+}
+.second-section{
+    margin-top: 5%;
+}
+.hero-section  .story h4{
+   text-align: center;
+   font-family: 'Lobster Two', sans-serif;
+   font-weight: 600;
+}
+.hero-section  .story p{
+    padding-left: 40px;
+    font-size: 1.1rem;
+    color: #636363;
+}
+.image-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.third-section{
+    background-color: #103741cf;
+    padding: 40px;
+    margin-top:3%;
+    margin-bottom:3%;
+}
+.third-section .col-12{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.counter-box{
+    font-size: 2rem;
+    color: #fff;
+}
+
+.child-section .row .image .img{
+    height: 300px ;
+    width: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 10px solid #fff;
+}
+.child-section .row .image .img:hover {
+    border-color: #FE5D37;
+    transition: .5s ease-in-out;
+}
+.child-section .row .image:hover .text-box {
+    border: 5px solid #FE5D37;
+    transition: .2s ease-in-out;
+
+}
+.child-section .row .image-2 .img-2:hover{
+    border-color: #04d700;
+
+}
+.child-section .row .image-2:hover .text-box {
+    border: 5px solid #04d700;
+   
+
+}
+.child-section .row .image-3 .img-3:hover{
+    border-color: #FFC107;
+
+}
+.child-section .row .image-3:hover .text-box {
+    border: 5px solid #FFC107;
+   
+
+}
+@media (max-width: 1024px) {
+    .navbar .navbar-nav .nav-link  {
+        margin-right: 0; 
+         padding: 10px 10px;
+    }
+    .navbar .navbar-nav .nav-link {
+        font-size: 12px;
+    }
+    .navbar .navbar-nav {
+        margin-top: 15px;
+        border-top: 1px solid #EEEEEE;
+    }
+}
+
+@media (min-width: 992px) {
+    .navbar .nav-item .dropdown-menu {
+        display: block;
+        top: calc(100% - 15px);
+        margin-top: 0;
+        opacity: 0; 
+         visibility: hidden;
+        transition: .5s;
+        
+    }
+
+    .navbar .nav-item:hover .dropdown-menu {
+        top: 100%;
+        visibility: visible;
+        transition: .5s;
+        opacity: 1;
+    } 
+
+   
+}
+@media (max-width:992px) {
+    .footer .col-md-6{
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+     }
+     .feedback-section .row .card{
+        min-height: 200px!important;
+     }
+}
+
+@media (max-width:400px) {
+    .navbar-brand h1{
+        font-size: 20px;
+    }
+    .btn{
+        
+        width: auto;
+    }
+    .carousel-caption{
+        background-color: #10374100;
+    
+    }
+    .ab-2,.ab-3{
+        margin-top: 90px;
+    }
+    .school-video  .video{
+        width: 100% !important;
+    }
+    .footer .col-md-6{
+       justify-content: center;
+       align-items: center;
+       display: flex;
+       flex-direction: column;
+    }
+}
+
+@media (max-width: 770px) {
+    .box input,.box textarea{
+        width: 100% !important;
+    }
+    .hero-section  .story p{
+ text-align: center!important;
+ padding-right: 20px;
+    }
+}

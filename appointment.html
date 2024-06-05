@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font Awesome StyleSheet  -->
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Lobster two font cdn  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+    <!-- Bootstrap   -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- Custom CSS  -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Appointment</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top px-4 px-lg-5 py-lg-0">
+        <a href="index.html" class="navbar-brand">
+            <h1 class="m-0 text-primary"><i class="fa fa-book-reader me-3 text-primary "></i>Kinder Garten</h1>
+        </a>
+        <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav mx-auto">
+                <a href="index.html" class="nav-item nav-link   fs-5">Home</a>
+                <a href="about.html" class="nav-item nav-link fs-5">About Us</a>
+                <a href="classes.html" class="nav-item nav-link fs-5">Classes</a>
+    
+    
+                <a href="appointment.html"  class="nav-item nav-link fs-5 active fw-bold">Appointment</a>
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle fs-5" data-bs-toggle="dropdown">Pages</a>
+                    <div class="dropdown-menu rounded-0 rounded-bottom border-0 shadow-sm m-0">
+                        <a href="facility.html" class="dropdown-item">School Facilities</a>                      
+                        <a href="call-to-action.html" class="dropdown-item">Become A Teachers</a>
+                        <a href="testimonial.html" class="dropdown-item">Testimonial</a>
+                     
+    
+                    </div>
+                </div>
+            </div>
+            <a href="call-to-action.html" class="btn btn-primary rounded-pill px-3 d-none d-lg-block">Join Us<i
+                    class="fa fa-arrow-right ms-3"></i></a>
+        </div>
+    </nav>
+    <div class="container-fluid hero-section overflow-hidden pb-5">
+        <div class="row ">
+            <div class="col-12" style="background-image: url(images/about-hero-section.jpg); ">
+                <div class="bread-crumbs">
+                    <p><a href="index.html">Home</a> /  <a href="appointment.html" class="text-primary">Appointment</a> /</p>
+                </div>
+            </div>
+        </div>
+    </div>
+   <div class="container">
+ 
+
+    <div class="text-center p-3 mx-auto mb-2 " style="max-width: 600px;">
+
+        <h1 class="mb-3 font-curve ">Appointment</h1>
+        <p>
+           <span class="text-danger"> Don't Compromise Your Child's Future</span> – Book an Appointment Today – Take the first step towards securing a <span class="text-warning fw-bold font-curve fs-5">bright future</span> for your pre-teen by scheduling a personalized appointment.</p>
+    </div>
+   </div>
+       <!-- Appointment Start -->
+       <div class="py-lg-5 py-0 mb-5">
+        <div class="container">
+            <div class="bg-light rounded">
+                <div class="row g-0">
+                    <div class="col-lg-6 ">
+                        <div class="h-100 d-flex flex-column justify-content-center p-5">
+                            <h1 class="mb-4 font-curve">For The Bright Future Of Your Child</h1>
+                            <form method="post" action="appointment.php">
+                                <div class="row g-3">
+                                    <div class="col-sm-6">
+                                        <div class="box ">
+                                            <input required type="text" class="p-3 border border-0  rounded-3"
+                                                placeholder="Enter Gurdian Name" name="n" id="name">
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6">
+
+                                        <div class="box ">
+                                            <input required type="email" class="p-3 border border-0  rounded-3"
+                                                placeholder="Enter Gurdian Email" name="e" id="name">
+                                        </div>
+
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="box ">
+                                            <input required type="text" class="p-3 border border-0  rounded-3"
+                                                placeholder="Enter Child Name" name="cn" id="name">
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6">
+
+                                        <div class="box ">
+                                            <input required type="text" class="p-3 border border-0  rounded-3"
+                                                placeholder="Enter Child Age" name="a" id="name">
+                                        </div>
+
+                                    </div>
+                                    <div class="col-12">
+
+                                        <div class="box">
+                                            <textarea class=" border-0 p-3" name="m" placeholder="Leave a message here"
+                                                id="message" style="height: 100px; width: 93%;"></textarea>
+                                        </div>
+
+
+                                    </div>
+                                    <div class="col-12 ">
+                                        <button class="btn btn-primary w-100 py-3 mt-2"
+                                            type="submit">Submit</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-lg-6  " style="min-height: 400px;">
+                        <div class="position-relative h-100">
+                            <img class="w-100 h-100 rounded" src="images/carousel-1.jpg"
+                                style="object-fit: cover;">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Appointment End -->
+
+        <!-- Footer Start -->
+        <div class="container-fluid bg-dark text-white-50 footer position-absolute p-3  ">
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div class="col-lg-4 col-md-6 quick-links">
+                        <h3 class="text-white mb-4 font-curve">Get In Touch</h3>
+                        <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i><a href="" class="text-white-50">123
+                                Street, New York, USA</a></p>
+                        <p class="mb-2"><i class="fa fa-phone-alt me-3"></i><a href="tel:+92 3254740211"
+                                class="text-white-50">+92 3254740211</a></p>
+                        <p class="mb-2"><i class="fa fa-envelope me-3"></i><a href="mailto:kinderGarten@gmail.com"
+                                class="text-white-50">kinderGarten@gmail.com</a></p>
+                        <div class="d-flex pt-2">
+                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
+                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 quick-links">
+                        <h3 class="text-white mb-4 font-curve">Quick Links</h3>
+                        <div>
+                            <a class="btn btn-link text-white-50" href="index.html">Home</a>
+                        </div>
+                        <div>
+                            <a class="btn btn-link text-white-50" href="about.html">About Us</a>
+                        </div>
+                        <div>
+                            <a class="btn btn-link text-white-50" href="facility.html">Our Facilities</a>
+                        </div>
+                        <div>
+                            <a class="btn btn-link text-white-50" href="call-to-action.html">Join Our Community</a>
+                        </div>
+                       
+                        
+                        
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <h3 class="text-white mb-4 font-curve">Photo Gallery</h3>
+                        <div class="row g-2 pt-2">
+                            <div class="col-4">
+                                <img class="img-fluid rounded bg-light p-1" src="images/classes-1.jpg" alt="">
+                            </div>
+                            <div class="col-4">
+                                <img class="img-fluid rounded bg-light p-1" src="images/classes-5.jpg" alt="">
+                            </div>
+                            <div class="col-4">
+                                <img class="img-fluid rounded bg-light p-1" src="images/classes-6.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="container end-container">
+                <div class="copyright">
+                    <div class="row">
+                        <div class="col-md-6 text-center mb-2">
+                            &copy; <a class="border-bottom" href="#">Kinder Garten</a>, All Right Reserved.
+                        </div>
+                        <div class="col-md-6 text-center ">
+                            <div class="footer-menu">
+                                <a href="index.html">Home</a>
+                                <a href="classes.html">Classes</a>
+                            
+                                <a href="appointment.html">Appointment</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+</html>
